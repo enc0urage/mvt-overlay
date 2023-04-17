@@ -15,11 +15,11 @@
 }:
 buildPythonApplication rec {
   pname = "mvt";
-  version = "2.2.2";
+  version = "2.2.5";
 
   src = fetchPypi {
     inherit pname version;
-    hash = "sha256-Gks+0IK2hH9TIKTSw4ULBbWW63WwpJtPUWI94A0LczI=";
+    hash = "sha256-TFnoyrt6u9kDCDJHehPwyFVq0dtSXWAqLh5QujbGYXo=";
   };
 
   propagatedBuildInputs = [adb-shell appdirs click iOSbackup libusb1 packaging pyyaml requests rich simplejson tld];

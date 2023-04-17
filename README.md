@@ -5,7 +5,7 @@ identify a potential compromise of Android and iOS devices.
 
 Included packages:
 
-- [MVT](https://pypi.org/project/mvt/) 2.2.2
+- [MVT](https://pypi.org/project/mvt/) 2.2.5
 - [NSKeyedUnArchiver](https://pypi.org/project/NSKeyedUnArchiver/) 1.5
 - [iOSbackup](https://pypi.org/project/iOSbackup/) 0.9.925
 
