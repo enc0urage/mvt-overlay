@@ -7,6 +7,7 @@
   iOSbackup,
   libusb1,
   packaging,
+  pyahocorasick,
   pyyaml,
   requests,
   rich,
@@ -15,14 +16,14 @@
 }:
 buildPythonApplication rec {
   pname = "mvt";
-  version = "2.2.6";
+  version = "2.4.1";
 
   src = fetchPypi {
     inherit pname version;
-    hash = "sha256-wOeEe1x96Q5PCHrPvWBr1EPMDtd9Z8Ddeig9qHw4YLg=";
+    hash = "sha256-qQM2hrnKZA28Yx0Kwdthk83QstSOpn48HL9DAIc87Wc=";
   };
 
-  propagatedBuildInputs = [adb-shell appdirs click iOSbackup libusb1 packaging pyyaml requests rich simplejson tld];
+  propagatedBuildInputs = [adb-shell appdirs click iOSbackup libusb1 packaging pyahocorasick pyyaml requests rich simplejson tld];
 
   doCheck = false;
 
